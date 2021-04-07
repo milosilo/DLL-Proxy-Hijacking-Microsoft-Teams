@@ -26,9 +26,17 @@ DLL from the directory the application resides in before loading the dll from it
 malicious dll file that executes a payload while directing all legitimate requests to the intended DLL file.
 
 Required Items:
-SysInternals AccessEnum
+SysInternals AccessEnum  
+https://docs.microsoft.com/en-us/sysinternals/downloads/accessenum   
+
+SysInternals ProcessMonitor  
+https://docs.microsoft.com/en-us/sysinternals/downloads/procmon
+
 Mingw Compiler, Release: 8.1.0 x86_64-win32-seh
-DLL Template - Written in c
+https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z
+
+DLL Template – Written in c   
+https://github.com/milosilo/DLL-Proxy-Hijacking-Microsoft-Teams/blob/main/template.c
 
 Instructions:
 Identify Targetable dlls:
